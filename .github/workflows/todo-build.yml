@@ -21,7 +21,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y build-essential  # Install build tools like GCC
 
       - name: Compile C code
-        run: gcc -o hello hello.c  # Compile the `hello.c` program to an executable named `hello`
+        run: gcc -o out/todo src/todo.cpp  # Compile the `hello.c` program to an executable named `hello`
 
       - name: Run the C program
         run: ./hello  # Run the compiled program
