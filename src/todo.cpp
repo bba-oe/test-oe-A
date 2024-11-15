@@ -61,6 +61,11 @@ int main() {
     removeItem("Create a git repo");
 
     printList();
+	
+    addItem("Test your code");
+	addItem("Buy milk");
+
+	printList();
 
     return 0;
 }
