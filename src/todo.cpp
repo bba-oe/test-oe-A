@@ -62,8 +62,8 @@ int main() {
 
     printList();
 	
-    addItem("Test your code");
-	addItem("Buy milk");
+    removeItem("Test your code");
+	removeItem("Buy milk");
 
 	printList();
 
